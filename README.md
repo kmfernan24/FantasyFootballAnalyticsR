@@ -3,7 +3,8 @@ Fantasy Football Analytics
 
 # Description:
 
-This repository contains R scripts and data files used for advanced fantasy football analysis. It’s part of the Fantasy Football Analytics platform, which focuses on applying statistical modeling and data-driven insights to enhance decision-making in fantasy football.
+This repository contains R scripts and data files used for advanced fantasy football analysis.
+It's part of the Fantasy Football Analytics platform, which focuses on applying statistical modeling and data-driven insights to enhance decision-making in fantasy football.
 
 # Features:
 
@@ -13,13 +14,15 @@ This repository contains R scripts and data files used for advanced fantasy foot
 
 # Installation:
 
-To get started, you need to install the required R packages. You can do this by running the following command in R:
+To get started, you need to install the required `R` packages.
+You can do this by running the following command in `R`:
 ```r
 install.packages(c("reshape", "MASS", "psych", "Rglpk", "XML", "data.table"), dependencies=TRUE)
 ```
-Additionally, make sure you have R and RStudio installed on your machine for running and editing the scripts.
+Additionally, make sure you have `R` installed on your machine for running and editing the scripts.
 
 # Data Sources:
+
 The repository uses various data sources such as historical player stats, team performance, and projections to build models and tools that help fantasy football managers make informed decisions.
 
 # Running the Scripts:
@@ -32,13 +35,14 @@ git clone https://github.com/FantasyFootballAnalytics/FantasyFootballAnalyticsR.
 
 # More Info:
 
-Fantasy Football Analytics is a platform that leverages statistics, data analysis, and R programming to enhance fantasy football strategies and performance. The GitHub repository hosts R scripts and data sets used to conduct these analyses, aligning with the methodologies outlined on the website. You can learn more by visiting http://fantasyfootballanalytics.net/. 
+Fantasy Football Analytics is a platform that leverages statistics, data analysis, and `R` programming to enhance fantasy football strategies and performance.
+The GitHub repository hosts `R` scripts and data sets used to conduct these analyses, aligning with the methodologies outlined on the website.
+You can learn more by visiting http://fantasyfootballanalytics.net. 
 
-**Pros:** 
 - Provides tools and resources for data-driven decision-making in fantasy football.
 - Utilizes the powerful R language, ideal for statistical analysis.
 - Open access to the code allows for customization and deeper learning.
 
-**Cons:** 
-- Requires familiarity with R programming, which may pose a learning curve.
-- Success in fantasy football still depends on the quality of real-world data.
+# `ffanalytics` package
+
+The `ffanalytics` package—which facilitates scraping fantasy football projections and customizing them to your league settings—is hosted in the following repo: https://github.com/FantasyFootballAnalytics/ffanalytics
